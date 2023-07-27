@@ -1,4 +1,3 @@
-import React from 'react';
 import {comments} from './commentData';
 import Card from './Card';
 import './App.css';
