@@ -3,11 +3,12 @@ import Card from './Card';
 import './App.css';
 
 function App() {
+  const card = comments.map(comment => <Card commentObject={comment} />);
+  
   return (
-    comments.map(comment => 
-      <div className="App">
-        <Card commentObject={comment} />
-      </div>)
+    <div className="App">
+      {card}
+    </div>
   );
 }
 
